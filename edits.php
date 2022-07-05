@@ -16,12 +16,12 @@ if(isset($_POST['simpan'])){
     //apabila query berhasil di update
     if($query){
         //kalau berhasil di nav ke halaman list.php
-        header('location: list.php')
-    } else (
+        header('location: list.php');
+    } else {
         // kalau gagal menyimpan
         die("Gagal Menyimpan Perubahan Data.... ");
-    )
+    }
 }else{
-        die("Akses Gagal/Dilarang...");
+    die("Akses Gagal/Dilarang...");
 }
 ?>

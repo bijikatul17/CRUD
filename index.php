@@ -1,31 +1,45 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Data Mahasiswa</title>
-    </head>
-
-    <body>
-        <header>
-            <h3>Data Mahasiswa</h3>
-        </header>
-
-        <h4>Menu</h4>
-        <nav>
-            <?php if (isset($_GET['status']));?>
-                <p>
-                    <?php
-                    if ($_GET['status' == 'sukses') {
-                            echo "Pendaftaran Berhasil";
-                    } else {
-                        echo "pendaftaran Gagal" ; 
-                    } 
-                    ?>
+<?php require_once('header.php'); ?>
+        <div class="content">
+            <div class="main">
+                <h2>Penjelasan Singkat</h2>
+                <p class="penulis">Artikel ini ditulis oleh
+                    <a href="https://www.instagram.com/luqmantbima/" 
+                    class="penulis" target="_blank">Luqman Tri Bimantoro</a>
+                    pada 11/10/2021 pukul 12:46 WIB
                 </p>
-            <?php endif; ?>
-            <ul>
-                <li><a href="daftar.php">Daftar Baru</a></li>
-                <li><a href="list.php">List Mahasiswa</a></li>
-            </ul>
-        </nav>
-    </body>
-</html>
+                <nav>
+                    <?php if (isset($_GET['status'])) :?>
+                        <p>
+                            <?php
+                            if ($_GET['status'] == 'sukses') {
+                                echo "<a href='index.php'>Pendaftaran Berhasil!!!!
+                                      Klik Tulisan INI Untuk Keluar</a>";
+                            } else {
+                                echo "<a href='index.php'>Pendaftaran Gagal!!!!!
+                                      Klik Tulisan INI Untuk Keluar</a>" ; 
+                            }
+                            ?>
+                        </p>
+                    <?php endif; ?>
+                </nav>
+                <p>
+                    Halaman Web ini ditujukan untuk penyelesaian tugas Internet Publisher 
+                    oleh Pak Aditya Galih. Web ini bertemakan PHP CRUD sederhana yang 
+                    bersikan tentang form input data mahasiswa yang parameternya terdiri]
+                    dari id, nama dan jurusan.
+                </p>
+                <p>
+                    Semoga dengan dikerjakan nya tugas ini dapat membuat mahasiswa-mahasiswa
+                    berlatih dan mempelajari lagi materi-materi lampau tentang syntax-syntax
+                    didalam pembuatan web mulai dari HTML, CSS, JavaScrpt, PHP hingga MySqli.
+                </p>
+                <p>
+                    Sekian yang dapat saya sampaikan, kurang lebih nya mohon maaf. Wabillahi
+                    taufiq wal hidayah, sumassalaumalaikum warroh matullahi wabarokatuh.<br>
+                    <br><a style="font-style: italic;">Hormat Saya Sebagai Penulis,</a><br>
+                    <br><a href="https://www.instagram.com/luqmantbima/"  
+                    target="_blank" class="ttd">Luqman Tri Bimantoro</a>
+                </p>
+            </div>
+        </div>
+<?php require_once('footer.php'); ?>

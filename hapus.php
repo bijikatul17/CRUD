@@ -7,15 +7,16 @@ if(isset($_GET['id'])){
     $id = $_GET['id'];
 
     //buat query hapus
-    $sql = "DELETE FROM mahasiswa WHERE id=$id"
+    $sql = "DELETE FROM mahasiswa WHERE id=$id";
     $query = mysqli_query($db, $sql);
 
     // apakah query hapus berhasil
     if($query){
-        header('location: list.php')
+        header('location: list.php');
     }else{
         // apabila gagal menghapus data
         die("Gagal Menghapus .......");
+    }
 }else{
     die("Akses Gagal/Dilarang......");
 }
