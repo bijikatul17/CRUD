@@ -8,7 +8,7 @@
                             if ($_GET['status'] == 'sukses') {
                                 echo "Pendaftaran Berhasil";
                             } else {
-                                echo "Pendaftaran Gagal" ; 
+                                echo "Pendaftaran Gagal, Silahkan Coba Lagi....." ; 
                             }
                         ?>
                     </p>
