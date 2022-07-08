@@ -1,26 +1,6 @@
 <?php include("config.php"); ?>
 
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Data Mahasiswa</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1 class="judul">Data Mahasiswa</h1>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="list.php">Daftar Mahasiswa</a></li>
-                    <li><a href="daftar.php">Daftar Baru</a></li>
-                    <li><a href="about.php">Tentang Penulis</a></li>
-                </ul>
-            </div>
+<?php include("header.php"); ?>
             <div class="content">
                 <div class="main">
                     <ul class="gallery" id="gallery">
@@ -48,9 +28,4 @@
                     </p>
                 </div>
             </div>
-            <div class="footer">
-                <p class="copy">Copyright 2021.Luqman Tri Bimantoro</p>
-            </div>  
-        </div>      
-    </body>
-</html>
+<?php include("footer.php"); ?>
