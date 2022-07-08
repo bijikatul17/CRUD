@@ -1,0 +1,7 @@
+Option -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.luqmantb\.site [NC]
+RewriteRule ^(.*)$ https://luqmantb.site/$1 [L,R=301]
+
+order allow,allow from all
