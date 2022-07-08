@@ -15,7 +15,7 @@ if(isset($_GET['id'])){
         header('location: list.php');
     }else{
         // apabila gagal menghapus data
-        die("Gagal Menghapus .......");
+        die("Gagal Menghapus, Coba Lagi .......");
     }
 }else{
     die("Akses Gagal/Dilarang......");
