@@ -1,6 +1,6 @@
 <?php include("config.php"); ?>
 
-<?php include("header.php"); ?>
+<?php require_once('header.php'); ?>
             <div class="content">
                 <div class="main">
                     <ul class="gallery" id="gallery">
@@ -28,4 +28,5 @@
                     </p>
                 </div>
             </div>
-<?php include("footer.php"); ?>
+<?php require_once('footer.php'); ?>
+
