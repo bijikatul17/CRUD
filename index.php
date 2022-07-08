@@ -2,7 +2,7 @@
         <div class="content">
             <div class="main">
                 <h2>Penjelasan Singkat</h2>
-                <p class="penulis">Artikel ini ditulis oleh
+                <p class="penulis">Laman ini ditulis oleh
                     <a href="https://www.instagram.com/luqmantbima/" 
                     class="penulis" target="_blank">Luqman Tri Bimantoro</a>
                     pada 11/10/2021 pukul 12:46 WIB
@@ -23,9 +23,8 @@
                     <?php endif; ?>
                 </nav>
                 <p>
-                    Halaman Web ini ditujukan untuk penyelesaian tugas Internet Publisher 
-                    oleh Pak Aditya Galih. Web ini bertemakan PHP CRUD sederhana yang 
-                    bersikan tentang form input data mahasiswa yang parameternya terdiri]
+                    Halaman Web ini bertemakan PHP CRUD sederhana yang 
+                    berisikan tentang form input data mahasiswa yang parameternya terdiri
                     dari id, nama dan jurusan.
                 </p>
                 <p>
@@ -38,7 +37,12 @@
                     taufiq wal hidayah, sumassalaumalaikum warroh matullahi wabarokatuh.<br>
                     <br><a style="font-style: italic;">Hormat Saya Sebagai Penulis,</a><br>
                     <br><a href="https://www.instagram.com/luqmantbima/"  
-                    target="_blank" class="ttd">Luqman Tri Bimantoro</a>
+                    target="_blank" class="ttd">Luqman Tri Bimantoro</a><br>
+                    <a href="">Dan teman-teman :</a><br>
+                    <li>
+                        <ul>Kevin Marino</ul>
+                        <ul>Muhammad Abdullah Faqih</ul>
+                    </li>
                 </p>
             </div>
         </div>
